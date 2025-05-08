@@ -1,88 +1,157 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio Interativo</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meu Portfólio Interativo</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header>
-        <h1>(rascunho)</h1>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre Mim</a></li>
-                <li><a href="#projetos">Meus Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section id="sobre">
-        <h2>Sobre Mim</h2>
-        <p>Eu sou Ellen, uma estudante tentando a cada dia melhorar e aprimorar os meus conhecimentos!</p>
-    </section>
+  <header>
+    <h1>Meu Portfólio Interativo</h1>
+  </header>
 
-    <section id="projetos">
-        <h2>Meus Projetos</h2>
-        <div class="projeto" id="projeto1">
-            <h3>Projeto 1</h3>
-            <p>Descrição do projeto...</p>
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Eu sou Ellen, uma estudante tentando a cada dia melhorar e aprimorar os meus conhecimentos!</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projetos</h2>
+    <div class="projects-wrapper">
+  
+      <div class="cards-container">
+        <div class="card">
+          <h3>Portfólio Interativo</h3>
+          <p>Um site para mostrar meus projetos com HTML, CSS e EmailJS.</p>
+          <a href="https://github.com/GhoostSoul/Portfolio-Interativo" target="_blank">Ver no GitHub</a>
         </div>
-        <div class="projeto" id="projeto2">
-            <h3>Projeto 2</h3>
-            <p>Descrição do projeto...</p>
+  
+        <div class="card">
+          <h3>Projeto em breve</h3>
+          <p>Projeto em desenvolvimento.</p>
+          <a href="https://github.com/seu-usuario/projeto-exemplo" target="_blank">Ver no GitHub</a>
         </div>
-    </section>
+  
+        <div class="card">
+          <h3>Outro projeto</h3>
+          <p>Outro projeto em andamento.</p>
+          <a href="https://github.com/seu-usuario/outro-projeto" target="_blank">Ver no GitHub</a>
+        </div>
+        <div class="card">
+          <h3>Projeto 4</h3>
+          <p>Descrição do projeto 4.</p>
+          <a href="#">Ver no GitHub</a>
+        </div>
+  
+        <div class="card">
+          <h3>Projeto 5</h3>
+          <p>Descrição do projeto 5.</p>
+          <a href="#">Ver no GitHub</a>
+        </div>
+  
+        <div class="card">
+          <h3>Projeto 6</h3>
+          <p>Descrição do projeto 6.</p>
+          <a href="#">Ver no GitHub</a>
+        </div>
+      </div>
+  
+      <div class="image-placeholder">
+        <img src="C:\Users\Desktop\Downloads\perfil-removebg-preview.png" alt="Imagem de destaque" />
+      </div>
+  
+    </div>
+  </section>  
 
+  <section id="contato">
+    <h2>Contato</h2>
     <form id="contact-form">
-        <label for="name">Nome:</label>
-        <input type="text" name="name" id="name" placeholder="Seu nome" required>
-      
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" placeholder="Seu email" required>
-      
-        <label for="message">Mensagem:</label>
-        <textarea name="message" id="message" placeholder="Escreva sua mensagem aqui..." required></textarea>
-      
-        <button type="submit">Enviar</button>
-      </form>
-      
-    <section id="projects">
-        <h2>Projetos</h2>
-        <div class="cards-container">
-          
-          <div class="card">
-            <h3>Portfólio Interativo</h3>
-            <p>em breve descrição</p>
-            <a href="https://github.com/GhoostSoul/Portfolio-Interativo" target="_blank">Ver no GitHub</a>
-          </div>
-      
-          <div class="card">
-            <h3>em breve</h3>
-            <p>em breve</p>
-            <a href="https://github.com/seu-usuario-preenchendoburaco/todo-list" target="_blank">Ver no GitHub</a>
-          </div>
-      
-          <div class="card">
-            <h3>em breve</h3>
-            <p>em breve</p>
-            <a href="hhttps://github.com/seu-usuario-preenchendoburaco/todo-list" target="_blank">Ver no GitHub</a>
-          </div>
-      
-        </div>
-      </section>      
-    <footer>
-        <p>Feito por Ellen</p>
-    </footer>
+      <label for="name">Nome:</label>
+      <input type="text" name="name" id="name" placeholder="Seu nome" required>
 
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-<script>
-  (function() {
-    emailjs.init("zrf4fiPtJWHnS_Ihw");
-  })();
-</script>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" placeholder="Seu email" required>
+
+      <label for="message">Mensagem:</label>
+      <textarea name="message" id="message" placeholder="Escreva sua mensagem aqui..." required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      
+      <div class="social">
+        <h4>Me encontre:</h4>
+        <a href="https://instagram.com/seu_usuario" target="_blank">📸 Instagram</a>
+        <a href="https://linkedin.com/in/seu_usuario" target="_blank">💼 LinkedIn</a>
+        <a href="https://discord.com/users/seu_usuario" target="_blank">🎮 Discord</a>
+        <a href="https://t.me/seu_usuario" target="_blank">📬 Telegram</a>
+        <a href="https://wa.me/55SEUNUMERO" target="_blank">💬 WhatsApp: (83) 91234-5678</a>
+      </div>
+  
+      <div class="sobre-projeto">
+        <h4>Sobre o Projeto</h4>
+        <p>Este portfólio foi feito com HTML, CSS e integração com EmailJS para o envio de mensagens.</p>
+      </div>
+  
+      <div class="tabela-cores">
+        <h4>Cores do Projeto</h4>
+        <table>
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Código</th>
+              <th>Exemplo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Fundo Claro</td>
+              <td>#f4f4f9</td>
+              <td style="background-color: #f4f4f9;"></td>
+            </tr>
+            <tr>
+              <td>Texto Principal</td>
+              <td>#333333</td>
+              <td style="background-color: #333333;"></td>
+            </tr>
+            <tr>
+              <td>Card Hover</td>
+              <td>#f1f1f1</td>
+              <td style="background-color: #f1f1f1;"></td>
+            </tr>
+            <tr>
+              <td>Azul Botões</td>
+              <td>#1f7ae0</td>
+              <td style="background-color: #1f7ae0;"></td>
+            </tr>
+            <tr>
+              <td>Azul Hover</td>
+              <td>#155bb5</td>
+              <td style="background-color: #155bb5;"></td>
+            </tr>
+            <tr>
+              <td>Rodapé e Cabeçalho</td>
+              <td>#2c3e50</td>
+              <td style="background-color: #2c3e50;"></td>
+            </tr>
+            <tr>
+              <td>Destaque Roxo</td>
+              <td>#8e44ad</td>
+              <td style="background-color: #8e44ad;"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>      
+  </footer>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="script.js"></script>
 
 </body>
 </html>
