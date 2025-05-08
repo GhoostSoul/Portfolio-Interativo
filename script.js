@@ -1,15 +1,3 @@
-
-const projetos = document.querySelectorAll('.projeto');
-projetos.forEach(projeto => {
-  projeto.addEventListener('mouseenter', () => {
-    projeto.style.backgroundColor = '#f0f0f0';
-  });
-  projeto.addEventListener('mouseleave', () => {
-    projeto.style.backgroundColor = '';
-  });
-});
-
-
 (function () {
   emailjs.init("Szrf4fiPtJWHnS_Ihw"); 
 })();
@@ -27,4 +15,5 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
       alert('Ocorreu um erro ao enviar. Tente novamente.');
     });
 });
+
 
