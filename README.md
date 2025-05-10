@@ -6,11 +6,7 @@ Este é o meu Portfólio Teste onde mostro meus projetos, habilidades e experiê
 
 - Exibe meus projetos com interatividade.
 - Formulário de contato funcional.
-- Banners animados ao fundo da página.
-- Layout moderno com estilo personalizado.
 - Responsivo para dispositivos móveis.
-- Favicon personalizado.
-- Logo ao lado do nome do site no cabeçalho.
 
 ## Como usar
 
